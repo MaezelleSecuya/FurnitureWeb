@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Playfair+Display:wght@900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.navbar{
+	display: flex;
+	justify-content: center;
+    justify-content: space-between;
+	top: 0;
+	position: sticky;
+	background-color: rgb(37, 34, 34);
+	
+}
+.logo{
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	padding: 13px 20px;
+	letter-spacing: 1px;
+	margin-left: 30px;
+	font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 100px;
+    margin-top: 25px;
+}
+.navbar ul li{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Times New Roman;
+}
+.navbar ul li a{
+	text-decoration: none;
+	padding: 10px 25px;
+	color: rgb(255, 255, 255);
+	transition: all .5s ease;
+	letter-spacing: 2px;
+}
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: #4877fa;
+    height: 1px;
+    transform: .8s;
+    cursor: pointer;
+}
+.content{
+    background-color: black ;
+    display: flex;
+}
+.content img{
+    width: 70%;
+    display: flex;
+}
+.rightcont{
+    justify-content: space-between;
+	width: 70%;
+    color: rgb(255, 255, 255);
+}
+.rightcont h1{
+	font-size: 400%;
+	padding: 180px 50px 10px;
+	font-family: 'Playfair Display', serif;
+}
+.rightcont h5{
+	font-size: 140%;
+	padding: 30px 190px 10px;
+	letter-spacing: 1px;
+}
+.viewproduct{
+	width: 100%;
+	padding: 120px 240px 0;
+}
+.viewproduct .category{
+	background-color: transparent;
+	color: white;
+	text-decoration:none;
+	border: 2px solid blue;
+	font-size: 20px;
+	padding: 12px 30px;
+	transition: transform .2s;
+	border-radius: 30px;
+
+}
+.viewproduct .category:hover{
+	background: blue;
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+
+.productinfo{
+	background-color:rgb(37, 34, 34);
+}
+.productinfo h1{
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+.img-wrapper {  
+	width: 400px;
+	height: 300px;
+	overflow: hidden; 
+	margin-left: 35px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+  }
+
+  .inner-img {
+	transition: 0.3s;
+  }
+  
+  .inner-img:hover {
+	transform: scale(1.1);
+  }
+  
+  /* Other styling elements, that are not necessary for the example */
+  
+  .img-wrapper {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #000;
+  }
+  
+ .inner-content{
+	color: white;
+	position: absolute;
+	top: 165%;
+	left: 60px;
+ }
+.bedroom-button{
+	padding: 120px 20px 0;
+}
+.inner-button span{
+	border-radius: 20px;
+	outline: 2px;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid black;
+	font-size: 15px;
+	font-weight: bold;
+	transition: transform .2s;
+}
+.inner-button span:hover{
+	background: black;
+	color: white;
+	transform: scale(1.5);
+	cursor: pointer;
+}
+.living-content{
+	color: white;
+	position: absolute;
+	top: 165%;
+	left: 510px;
+}
+.dinning-content{
+	color: white;
+	position: absolute;
+	top: 165%;
+	left: 70%;
+}
+.kitchen-content{
+	color: white;
+	position: absolute;
+	top: 220%;
+	left: 60px;
+}
+.kidsroom-content{
+	color: white;
+	position: absolute;
+	top: 220%;
+	left: 510px;
+}
+.gammingroom-content{
+	color: white;
+	position: absolute;
+	top: 220%;
+	left: 70%;
+}
+.bathroom-content{
+	color: white;
+	position: absolute;
+	top: 275%;
+	left: 60px;
+}
+.officeroom-content{
+	color: white;
+	position: absolute;
+	top: 275%;
+	left: 510px;
+}
+.decor-content{
+	color: white;
+	position: absolute;
+	top: 275%;
+	left: 70%;
+}
+
+
+.banner-about{
+	width: 100%;
+	background-color:rgb(37, 34, 34);    
+}
+.banner-about img{
+	width: 100%;
+	margin-bottom: 0px;	
+}
+.banner-about h1{
+	color: white;
+	position: absolute;
+	font-size: 50px;
+	top: 300%;
+	left: 40%;
+}
+.banner-about p{
+	color: rgb(0, 0, 0);
+	position: absolute;
+	font-size: 20px;
+	font-weight: 20px;
+	top: 315%;
+	left: 25%;
+	width: 55%;
+	letter-spacing: 1px;
+}
+.about-buttom{
+	padding: 120px 20px 0;
+	margin-bottom: 0px;
+}
+.about-buttom a{
+	border-radius: 20px;
+	outline: 2px;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid black;
+	font-size: 15px;
+	font-weight: bold;
+	transition: transform .2s;
+	position: absolute;
+	top: 343%;
+	left: 47%;
+}
+.about-buttom a:hover{
+	background: black;
+	color: white;
+	transform: scale(1.0);
+	cursor: pointer;
+}
+.contact-section h1{
+	position: absolute;
+	top: 353%;
+	left: 42%;
+}
+
+
+
+
+.banner-contact-info{
+	background-color:rgb(37, 34, 34);
+	width: 100%;
+	height: 85%;
+	position: relative;
+}
+.contentinfo{
+	color: white;
+	position: absolute;
+	padding-top: 80px;
+	width: 70%;
+}
+.contentinfo h4{
+	color:white;
+	padding: 50px 150px 0;
+	word-spacing: 10px;
+	font-size: 110%;
+}
+.banner-inner-contact-info{
+	width: 75%;
+	padding: 20px 150px 0;
+}
+.banner-inner-contact-info h3{
+	word-spacing: 10px;
+	margin-left: 7%;
+}
+.banner-inner-contact-info a{
+	position: absolute;
+	color: blue; 
+}
+.banner-inner-contact-info a i{
+	width: 70%;
+	height: 70%;
+	padding: 5px 3px 0px 0px;
+}
+
+
+.right-side{
+	margin-left:56%;
+	width: 30%;
+	padding: 10px;
+	padding-bottom: 50px;
+}
+p{
+	padding: 13px 13px 15px;
+	color: white;
+	font-size: 17px;
+}
+.right-side .topic-text {
+	color: white;
+	font-size: 23px;
+	font-weight: 600;
+	padding-top: 10px;
+
+ }
+form {
+	margin: 0 auto;
+	width: 400px;
+	margin-left: 2%;
+	padding: 20px;
+	border: 3px solid white;
+	border-radius: 16px;
+  }
+  
+  ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+  form li + li {
+	margin-top: 16px;
+  }
+  label {
+	display: inline-block;
+	width: 90px;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	padding: 5px 5px 5px;
+	word-spacing: 3px;
+  }
+  input,
+  textarea {
+	/* sa box ng fifillupan */
+	width: 350px;
+	height: 30px;
+	size: 5%;
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-radius: 15px;
+  }
+  
+  input:focus,
+  textarea:focus {
+	/*para sa focused elements */
+	border-color: #000;
+  }
+  input[type="text"]{
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+	padding: 10px;
+  }
+  input[type="email"]{
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+	padding: 10px;
+  }
+  textarea {
+	vertical-align: ;
+	height: 8em;
+  }
+  .buttom{
+	  margin-top: 10px;
+  }
+  button {
+	margin-left: 20px;
+	background-color: white;
+	border-radius: 15px;
+	border: none;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 17px 0px 15px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 2)
+  }	
+  button:hover{
+	background: black;
+	color: white;
+	transform: scale(1.0);
+	cursor: pointer;
+  }
+  
+ 
+  /*Footer section*/
+footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+	align-items: center;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+}
+.footer-content h3{
+	font-size: 28px;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+	color: white;
+	font-weight: bold;
+}
+footer-content p{
+	max-width: 500px;
+	margin: 15px auto;
+	line-height: 28px;
+	font-size: 14px;
+	word-spacing: 7px;
+	justify-content: space-between;
+}
+.socials{
+	list-style: none;
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0 10px 0;
+}
+.socials a{
+	text-decoration: none;
+}
+.socials a i{
+	font-size: 40px;
+	color:rgb(37, 34, 34);
+	
+	margin: 10px ;
+	justify-content: space-between;
+}
+.socials a:hover i{
+	color: white;
+	cursor: pointer;
+}
+
